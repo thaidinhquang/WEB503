@@ -8,21 +8,11 @@ const server = http.createServer((req, res) => {
     //   data: "Hello World!",
     // })
     `
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-        </head>
-        <body>
             <h1>xin chao tat ca moi nguoi</h1>
-        </body>
-        </html>
     `
   );
 });
 
-server.listen(8000,()=>{
-    console.log("sever running on post 8000")
+server.listen(8000, () => {
+  console.log("sever running on post 8000")
 });
